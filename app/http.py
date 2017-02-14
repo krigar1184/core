@@ -17,7 +17,6 @@ class WebClient:
 
     def _make_async_request(self, url):
         with self._create_client_instance() as c:
-            import ipdb;ipdb.set_trace(context=5)
             c.fetch(url, self._handle_response)
 
     def _make_request(self, url):
