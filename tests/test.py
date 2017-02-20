@@ -1,5 +1,5 @@
 import unittest
-from .factories import ServiceFactory
+from tests.factories import ServiceFactory
 
 
 class ServiceTestCase(unittest.TestCase):
